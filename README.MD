@@ -19,9 +19,9 @@ Lets predict the attire to wear based on the weather for a given location
         cd predict-attire-for-weather-using-fargate
         ```
 
-    - Update your API key
+    - Update your API key. In the file `src/config/prod_config.json` update your `api key`
 
-        In the file `src/config/prod_config.json` update your `api key`
+    - Update your AWS account numbers in the `cdk.json` file. Replace `YOUR-ACCOUNT-NUMBER-GOES-HERE` with your 12-digit account number.
 
 1. ## Deployment
 
