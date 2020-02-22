@@ -9,14 +9,15 @@ setuptools.setup(
     name="predict_attire_for_weather_using_fargate",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="Predict attire for weather using fargate",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "predict_attire_for_weather_using_fargate"},
-    packages=setuptools.find_packages(where="predict_attire_for_weather_using_fargate"),
+    package_dir={"": "attire_predictor_stacks"},
+    packages=setuptools.find_packages(
+        where="attire_predictor_stacks"),
 
     install_requires=[
         "aws-cdk.core==1.24.0",
