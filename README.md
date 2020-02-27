@@ -46,7 +46,7 @@ Lets predict the attire to wear based on the weather for a given location
 
     ```bash
     cdk bootstrap
-    cdk deploy *
+    cdk deploy mystique-attire-predictor-*
     ```
 
 1. ## ?? Testing the solution
@@ -61,14 +61,14 @@ Lets predict the attire to wear based on the weather for a given location
     If you want to destroy all the resources created by the stack, Execute the below command to delete the stack, or _you can delete the stack from console as well_
 
     ```bash
-    cdk destroy *
+    cdk destroy mystique-attire-predictor*
     ```
 
     This is not an exhaustive list, please carry out other necessary steps as maybe applicable to your needs.
 
 ## ?? Buy me a coffee
 
-Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can reach out to get more details through [here](https://youtube.com/c/valaxytechnologies/about).
+Buy me a coffee ? through [Paypal](https://paypal.me/valaxy), _or_ You can reach out to get more details through [here](https://youtube.com/c/valaxytechnologies/about).
 
 ### ?? References
 
