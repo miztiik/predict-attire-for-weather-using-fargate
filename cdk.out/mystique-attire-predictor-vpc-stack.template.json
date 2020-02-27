@@ -25,7 +25,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1a",
+        "AvailabilityZone": "dummy1a",
         "MapPublicIpOnLaunch": true,
         "Tags": [
           {
@@ -111,11 +111,11 @@
     "customVpcIdpublicSubnetSubnet1NatInstance073A8F32": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "AvailabilityZone": "us-east-1a",
+        "AvailabilityZone": "dummy1a",
         "IamInstanceProfile": {
           "Ref": "customVpcIdpublicSubnetSubnet1NatInstanceInstanceProfile693B889D"
         },
-        "ImageId": "ami-0f482d2adde2d9206",
+        "ImageId": "ami-1234",
         "InstanceType": "t2.micro",
         "SecurityGroupIds": [
           {
@@ -153,7 +153,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1b",
+        "AvailabilityZone": "dummy1b",
         "MapPublicIpOnLaunch": true,
         "Tags": [
           {
@@ -230,7 +230,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1a",
+        "AvailabilityZone": "dummy1a",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
@@ -304,7 +304,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1b",
+        "AvailabilityZone": "dummy1b",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
@@ -378,7 +378,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1a",
+        "AvailabilityZone": "dummy1a",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
@@ -437,7 +437,7 @@
         "VpcId": {
           "Ref": "customVpcId909241C7"
         },
-        "AvailabilityZone": "us-east-1b",
+        "AvailabilityZone": "dummy1b",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
