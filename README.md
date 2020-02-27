@@ -77,6 +77,6 @@ Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can rea
 
 1. [Docker Hub](https://hub.docker.com/r/mystique/predict-attire-for-weather)
 
-### ?? Metadata
+### ℹ️ Metadata
 
 **Level**: 200
