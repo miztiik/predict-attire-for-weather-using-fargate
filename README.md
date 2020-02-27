@@ -31,8 +31,13 @@ Lets predict the attire to wear based on the weather for a given location
     # If you DONT have cdk installed
     npm install -g aws-cdk
 
+    # In linux( and its variants)
+    yum -y install python3-pip
+    pip install virtualenv
+
     # Make sure you in root directory
     cd predict-attire-for-weather-using-fargate
+    python3 -m venv .env
     source .env/bin/activate
     pip install -r requirements.txt
     ```
